@@ -31,6 +31,8 @@ async function fetchComments(){
 fetchComments();
 
 function renderComments(array, element){
+  document.querySelector(".loader").style.display = "none";
+
     element.innerHTML = null;
 
     const commentsFragment = document.createDocumentFragment();

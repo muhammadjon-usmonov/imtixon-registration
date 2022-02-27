@@ -14,6 +14,8 @@ const userId = window.localStorage.getItem("usersId");
 let posts = [];
 
 function renderPost(filteredPost, element){
+  document.querySelector(".loader").style.display = "none";
+
     element.innerHTML = null;
 
     const postFragment = document.createDocumentFragment();

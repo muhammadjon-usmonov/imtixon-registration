@@ -10,6 +10,8 @@ if (!token){
 
 
 function renderUsers(users, element){
+  document.querySelector(".loader").style.display = "none";
+
     element.innerHTML = null;
     const usersFragment = document.createDocumentFragment();
     
