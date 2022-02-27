@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <title>Home page</title>
+</head>
+<body>
+
+    <div class="users__section">
+            
+        <button class="btn-log-out login__button button">
+            <span>log out</span>
+        </button>
+
+        <ul class="users__list">
+        </ul>
+
+        <template id="users-template">
+            <li class="users__item">
+                <span class="users__id"> 1 </span>
+                <span class="users__name">
+                    Bret
+                </span>
+                <h3 class="users__username">
+                    Leanne Graham
+                </h3>
+            
+                <span class="address-name">Address:</span>
+
+                <div class="users__address">
+                    <p class="users__address__street">
+                        Kulas Light
+                    </p>
+                    <p class="users__address__suite">
+                        Apt. 556
+                    </p>
+                    <p class="users__address__city">
+                        Gwenborough 
+                    </p>
+                </div>
+
+                <span class="connect-name">Contact:</span>
+
+                <div class="users__connect">
+                    <p class="users__connect__phone">
+                        1-770-736-8031 x56442
+                    </p>
+                    <a class="users__connect__email" href="">
+                        Sincere@april.biz
+                    </a>
+                </div>
+                <span class="users__connect-name">
+                    Company:
+                </span>
+
+                <p class="users__connect__company">
+                    Romaguera-Crona
+                </p>
+                
+
+                <button class="glow-on-hover users__more-info" type="submit">User's posts</button>
+            </li>
+        </template>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
